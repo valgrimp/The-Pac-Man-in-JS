@@ -1,0 +1,63 @@
+/* GLOBAL */
+body {
+    background-color: #000;
+}
+canvas {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* ANIMATION PAC-MAN TITLE */
+p {
+    color: #fff; 
+    width: auto; 
+    height: 1px; 
+    text-align: left; 
+    font-family: monospace; 
+    font-size: 20px;
+}
+p span:nth-of-type(2) {
+    animation: lower 10s linear infinite;
+}
+p span:nth-of-type(1) {
+    animation: lower 9s linear infinite;
+}
+@keyframes upper {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+        text-shadow: 0 0 80px #ffffff, 0 0 30px #008000, 0 0 6px #0000ff;
+    }
+    20%,
+    21.999%,
+    63%,
+    63.999%,
+    65%,
+    69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+}
+@keyframes lower {
+    0%, 12%, 18.999%, 23%, 31.999%, 37%, 44.999%, 46%, 49.999%, 51%, 58.999%, 61%, 68.999%, 71%, 85.999%, 96%, 100% {
+        opacity: 0.99;
+        text-shadow: 0 0 30px #ffffff, 0 0 80px #008000, 0 0 6px #4682B4;
+    }
+    19%,
+    22.99%,
+    32%,
+    36.999%,
+    45%,
+    45.999%,
+    50%,
+    50.99%,
+    59%,
+    60.999%,
+    69%,
+    70.999%,
+    86%,
+    95.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+}
