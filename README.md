@@ -1,22 +1,10 @@
 # The-Pac-Man-in-JS
 The Pac-Man in JavaScript. Use in my website: http://www.vgp-wd.com/demos/pac-man
 
- __     __            __                        __      __           
-|  \   |  \          |  \                      |  \    |  \          
-| $$   | $$  ______  | $$  ______   _______   _| $$_    \$$ _______  
-| $$   | $$ |      \ | $$ /      \ |       \ |   $$ \  |  \|       \ 
- \$$\ /  $$  \$$$$$$\| $$|  $$$$$$\| $$$$$$$\ \$$$$$$  | $$| $$$$$$$\
-  \$$\  $$  /      $$| $$| $$    $$| $$  | $$  | $$ __ | $$| $$  | $$
-   \$$ $$  |  $$$$$$$| $$| $$$$$$$$| $$  | $$  | $$|  \| $$| $$  | $$
-    \$$$    \$$    $$| $$ \$$     \| $$  | $$   \$$  $$| $$| $$  | $$
-     \$      \$$$$$$$ \$$  \$$$$$$$ \$$   \$$    \$$$$  \$$ \$$   \$$
-                                                                     
-                                                                     
-                                                                                                                                   
-	Auteur : Valentin ChÃ©neau
-	Date de crÃ©ation : novembre 2018
+	Auteur : Valentin Chéneau
+	Date de création : novembre 2018
 
-	InteressÃ© par mes projets ?
+	Interessé par mes projets ?
 	Vous aimez mon code source ?
 
 	Contactez-moi! ;)
@@ -24,7 +12,7 @@ The Pac-Man in JavaScript. Use in my website: http://www.vgp-wd.com/demos/pac-ma
 
 ============= Concepts Used =============
 
-				=== JS ===
+=== JS ===
 
  . Function callbacks
    setInterval() used to refresh game, setTimeOut() used to pause screen 
@@ -47,7 +35,7 @@ The Pac-Man in JavaScript. Use in my website: http://www.vgp-wd.com/demos/pac-ma
    toString() methods, etc.
 
 
-			=== HTML5 Canvas ===
+=== HTML5 Canvas ===
 
  . Rectangles, rectangles everywhere.
    Used for grids, covering up areas that need to be refreshed, etc.
